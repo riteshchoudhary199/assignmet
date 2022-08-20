@@ -1,0 +1,16 @@
+class HelloWorld {
+  public static void main(String[] args) {
+  String str = "Ritesh" , nstr = " ";
+  char ch;
+  for (int i = str.length()-1; i>=0;i--){
+      ch = str.charAt(i);
+      nstr = nstr + ch;
+  }
+  if(nstr.equals(str)){
+      System.out.println("true");
+  }
+  else {
+       System.out.println("false");
+  }
+  }
+}
